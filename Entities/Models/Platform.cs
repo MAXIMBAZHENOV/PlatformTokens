@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
-    class Platform
+    public class Platform
     {
-        [Column("PlatformID")]
+        [Column("PlatformId")]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Platform name is a required field.")]
